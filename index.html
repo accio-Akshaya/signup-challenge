@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>signupForm</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+     <form id="signupForm">
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Example@email.com">
+        <div id="emailMessage" class="error">Make sure email is more than 3 characters and has @ and a .</div>
+      </div>
+      <div class="form-group">  
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Your Password" minlength="8" required/>
+        <div id="passwordMessage" class="error">Make sure password is more than 8 characters.</div>
+      </div>
+        <button type="submit">Submit</button>
+     </form>
+    </div>
+
+    <script type="text/javascript" src="./script.js"></script>
+
+</body>
+</html> 
